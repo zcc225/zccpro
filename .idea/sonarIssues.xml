@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="E:/workspace/guoshou/guoshouhoutai/ares/ares-app/src/main/java/com/wanmi/ares/AresBootstrap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zcc-platform/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zcc-platform/zccplatform-db/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zcc-platform/zccplatform-db/src/main/java/com/zccpro/db/DruidConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zcc-platform/zccplatform-db/src/main/java/com/zccpro/db/config/DruidConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zcc-platform/zccplatform-mybatis/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zcc-platform/zccplatform-mybatis/src/main/java/com/zccpro/mybatis/MybatisPlusConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zcc-platform/zccplatform-mybatis/src/main/java/com/zccpro/mybatis/config/MybatisPlusConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zcc-platform/zccplatform-swagger/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zcc-platform/zccplatform-swagger/src/main/java/com/zccpro/swagger/config/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zcc-platform/zccplatform-swagger/zccplatform-swagger.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zcc-platform/zccpro-bom/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice-api/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice-api/zccservice-base-api/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice-api/zccservice-bigdata-api/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice-api/zccservice-system-api/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-api/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-base/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-bigdata/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-system/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-system/src/main/java/com/zccpro/service/system/ZccServiceSystemApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-system/src/main/java/com/zccpro/service/system/controller/SystemController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-system/src/main/java/com/zccpro/service/system/entity/SystemTable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-system/src/main/java/com/zccpro/service/system/mapper/SystemTableMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-system/src/main/java/com/zccpro/service/system/service/ISystemService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-system/src/main/java/com/zccpro/service/system/service/impl/SystemServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-system/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zccparent/zccservice/zccservice-system/src/main/resources/com.zccpro.service.system.mapper/SystemTableMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

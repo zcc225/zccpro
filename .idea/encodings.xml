@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/zcc-platform" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcc-platform/zccplatform-db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcc-platform/zccplatform-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcc-platform/zccplatform-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcc-platform/zccpro-bom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zcccommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zccgateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zccoauth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zccplugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zccservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zccservice-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zccservice-api/zccservice-base-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zccservice-api/zccservice-bigdata-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zccservice-api/zccservice-system-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zccservice/zccservice-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zccservice/zccservice-bigdata" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zccparent/zccservice/zccservice-system" charset="UTF-8" />
+  </component>
+</project>

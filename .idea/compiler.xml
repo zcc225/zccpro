@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zccservice-bigdata-api" />
+        <module name="zcccommon" />
+        <module name="zccplugin" />
+        <module name="zccservice-system-api" />
+        <module name="zccplatform-swagger" />
+        <module name="zccservice-system" />
+        <module name="zccservice-bigdata" />
+        <module name="zccgateway" />
+        <module name="zccservice-base" />
+        <module name="zccservice-base-api" />
+        <module name="zccplatform-db" />
+        <module name="zccplatform-mybatis" />
+        <module name="zccoauth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zcc-platform" target="1.8" />
+      <module name="zcccommon" target="1.8" />
+      <module name="zccgateway" target="1.8" />
+      <module name="zccoauth" target="1.8" />
+      <module name="zccparent" target="1.8" />
+      <module name="zccplatform-db" target="1.8" />
+      <module name="zccplatform-mybatis" target="1.8" />
+      <module name="zccplatform-swagger" target="1.8" />
+      <module name="zccplugin" target="1.8" />
+      <module name="zccpro-bom" target="1.8" />
+      <module name="zccservice" target="1.8" />
+      <module name="zccservice-api" target="1.8" />
+      <module name="zccservice-base" target="1.8" />
+      <module name="zccservice-base-api" target="1.8" />
+      <module name="zccservice-bigdata" target="1.8" />
+      <module name="zccservice-bigdata-api" target="1.8" />
+      <module name="zccservice-system" target="1.8" />
+      <module name="zccservice-system-api" target="1.8" />
+      <module name="zccservicebase" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zcccommon" options="-parameters" />
+      <module name="zccgateway" options="-parameters" />
+      <module name="zccoauth" options="-parameters" />
+      <module name="zccplatform-db" options="-parameters" />
+      <module name="zccplatform-mybatis" options="-parameters" />
+      <module name="zccplatform-swagger" options="-parameters" />
+      <module name="zccplugin" options="-parameters" />
+      <module name="zccservice-base" options="-parameters" />
+      <module name="zccservice-base-api" options="-parameters" />
+      <module name="zccservice-bigdata" options="-parameters" />
+      <module name="zccservice-bigdata-api" options="-parameters" />
+      <module name="zccservice-system" options="-parameters" />
+      <module name="zccservice-system-api" options="-parameters" />
+    </option>
+  </component>
+</project>

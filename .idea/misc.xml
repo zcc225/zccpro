@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/zccparent/pom.xml" />
+        <option value="$PROJECT_DIR$/zcc-platform/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/zccparent/zccservice/zccservice-api/pom.xml" />
+        <option value="$PROJECT_DIR$/zccparent/zccservice/zccservice-base/pom.xml" />
+        <option value="$PROJECT_DIR$/zccparent/zccservice/zccservice-bigdata/pom.xml" />
+      </set>
+    </option>
+  </component>
+</project>

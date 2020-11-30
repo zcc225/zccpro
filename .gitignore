@@ -1,0 +1,7 @@
+# Project exclude paths
+/zcc-platform/zccplatform-db/target/
+/zcc-platform/zccplatform-mybatis/target/
+/zcc-platform/zccplatform-swagger/target/
+/zccparent/zcccommon/target/
+/zccparent/zccservice/zccservice-base/target/
+/zccparent/zccservice/zccservice-system/target/
