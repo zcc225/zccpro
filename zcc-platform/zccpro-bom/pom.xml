@@ -39,7 +39,10 @@
         <druid.version>1.1.23</druid.version>
         <!-- Mybatis Plus增强工具 -->
         <mybatis.plus.version>3.4.0</mybatis.plus.version>
+        <!-- Knife4j Swagger2文档 -->
         <knife4j.version>3.0.2</knife4j.version>
+        <!-- Spring Cloud Alibaba -->
+        <spring.cloud.alibaba>2.2.3.RELEASE</spring.cloud.alibaba>
 
     </properties>
 
@@ -83,10 +86,19 @@
             </dependency>
 
             <!-- Swagger2 knife4j bom方式引入 -->
+<!--            <dependency>-->
+<!--                <groupId>com.github.xiaoymin</groupId>-->
+<!--                <artifactId>knife4j-dependencies</artifactId>-->
+<!--                <version>${knife4j.version}</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
+
+            <!-- Spring Cloud Alibaba -->
             <dependency>
-                <groupId>com.github.xiaoymin</groupId>
-                <artifactId>knife4j-dependencies</artifactId>
-                <version>${knife4j.version}</version>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring.cloud.alibaba}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

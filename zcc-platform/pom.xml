@@ -13,6 +13,8 @@
         <module>zccplatform-mybatis</module>
         <module>zccpro-bom</module>
         <module>zccplatform-swagger</module>
+        <module>zccplatform-boot</module>
+        <module>zccplatform-cloud</module>
     </modules>
 
     <properties>
@@ -28,7 +30,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- SpringBoot版本号 -->
-        <spring.boot.version>2.3.3.RELEASE</spring.boot.version>
+        <spring.boot.version>2.3.2.RELEASE</spring.boot.version>
         <!-- SpringCloud版本号 -->
         <spring.cloud.version>Hoxton.SR8</spring.cloud.version>
         <!-- SpringPlatform版本号 -->

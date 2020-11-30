@@ -19,6 +19,13 @@
 
 
     <dependencies>
+        <!-- gitegg Spring Boot自定义及扩展 -->
+        <dependency>
+            <groupId>com.zccpro</groupId>
+            <artifactId>zccplatform-boot</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- gitegg db-->
         <dependency>
             <groupId>com.zccpro</groupId>
             <artifactId>zccplatform-db</artifactId>
@@ -30,10 +37,16 @@
             <artifactId>zccplatform-mybatis</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-<!--        &lt;!&ndash; gitegg swagger2-knife4j &ndash;&gt;-->
+        <!-- gitegg swagger2-knife4j -->
+        <dependency>
+            <groupId>com.zccpro</groupId>
+            <artifactId>zccplatform-swagger</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- gitegg Spring Cloud自定义及扩展 -->
 <!--        <dependency>-->
 <!--            <groupId>com.zccpro</groupId>-->
-<!--            <artifactId>zccplatform-swagger</artifactId>-->
+<!--            <artifactId>zccplatform-cloud</artifactId>-->
 <!--            <version>1.0-SNAPSHOT</version>-->
 <!--        </dependency>-->
         <!-- spring boot web核心包 -->
