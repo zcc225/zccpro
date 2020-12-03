@@ -20,14 +20,17 @@ import javax.validation.Valid;
 
 @RestController
 @RequestMapping(value = "system")
-//@RequiredArgsConstructor(onConstructor_ = @Autowired)
-@AllArgsConstructor
+@RequiredArgsConstructor(onConstructor_ = @Autowired)
+//@AllArgsConstructor
 @Api(tags = "zccservice-system")
 @RefreshScope
 public class SystemController {
 //
-//    @Value("${server.port}")
-//    private String nacosMaxActiveType = "0";
+    @Value("${server.port}")
+    private String nacosMaxActiveType;
+
+    @Value("${server.port}")
+    private String port ;
 
     @Autowired
     private final ISystemService systemService;
@@ -57,11 +60,11 @@ public class SystemController {
         return Result.data(systemDTO);
     }
 
-//    @PostMapping(value = "nacos")
-//    @ApiOperation(value = "Nacos读取配置文件测试接口")
-//    public Result<String> nacos() {
-//        return Result.data(nacosMaxActiveType);
-//    }
+    @PostMapping(value = "nacos")
+    @ApiOperation(value = "Nacos读取配置文件测试接口")
+    public Result<String> nacos() {
+        return Result.data(nacosMaxActiveType);
+    }
 
     @GetMapping(value = "api/by/id")
     @ApiOperation(value = "Fegin Get调用测试接口")
