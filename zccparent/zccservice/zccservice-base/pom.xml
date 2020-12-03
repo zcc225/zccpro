@@ -11,5 +11,12 @@
 
     <artifactId>zccservice-base</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.zccpro</groupId>
+            <artifactId>zccservice-system-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

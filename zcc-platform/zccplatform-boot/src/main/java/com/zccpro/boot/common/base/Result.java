@@ -4,7 +4,9 @@ package com.zccpro.boot.common.base;
 import com.zccpro.boot.common.enums.ResultCodeEnum;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 
@@ -15,8 +17,10 @@ import lombok.ToString;
  * @date 2020年09月19日 下午9:24:50
  */
 @ApiModel(description = "通用响应类")
-@Getter
 @ToString
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Result<T> {
 
     @ApiModelProperty(value = "是否成功", required = true)

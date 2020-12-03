@@ -10,6 +10,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>zccservice-system-api</artifactId>
-
+    <dependencies>
+        <!-- gitegg Spring Boot自定义及扩展 -->
+        <dependency>
+            <groupId>com.zccpro</groupId>
+            <artifactId>zccplatform-boot</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- gitegg swagger2-knife4j -->
+        <dependency>
+            <groupId>com.zccpro</groupId>
+            <artifactId>zccplatform-swagger</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- gitegg Spring Cloud自定义及扩展 -->
+        <dependency>
+            <groupId>com.zccpro</groupId>
+            <artifactId>zccplatform-cloud</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -14,7 +14,6 @@
     <modules>
         <module>zccservice-system</module>
         <module>zccservice-base</module>
-        <module>zccservice-bigdata</module>
     </modules>
 
 
@@ -44,11 +43,11 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!-- gitegg Spring Cloud自定义及扩展 -->
-<!--        <dependency>-->
-<!--            <groupId>com.zccpro</groupId>-->
-<!--            <artifactId>zccplatform-cloud</artifactId>-->
-<!--            <version>1.0-SNAPSHOT</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.zccpro</groupId>
+            <artifactId>zccplatform-cloud</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- spring boot web核心包 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -59,6 +58,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+<!--        <dependency>-->
+
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-context</artifactId>-->
+<!--            <version>2.1.0.RELEASE</version>-->
+
+<!--        </dependency>-->
     </dependencies>
 
 
