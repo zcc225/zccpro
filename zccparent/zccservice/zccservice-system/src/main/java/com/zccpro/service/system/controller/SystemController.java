@@ -30,7 +30,7 @@ public class SystemController {
     private String nacosMaxActiveType;
 
     @Value("${server.port}")
-    private String port ;
+    private Integer  serverPort  ;
 
     @Autowired
     private final ISystemService systemService;
@@ -76,6 +76,12 @@ public class SystemController {
     @ApiOperation(value = "Fegin Post调用测试接口")
     public Result<Object> feginByDto(@Valid @RequestBody SystemDTO systemDTO) {
         return Result.data(systemDTO);
+    }
+
+    @GetMapping("/api/ribbon")
+    @ApiOperation(value = "Ribbon调用测试接口")
+    public Result<String> testRibbon() {
+        return Result.data("现在访问的服务端口是:" + serverPort);
     }
 
 }
